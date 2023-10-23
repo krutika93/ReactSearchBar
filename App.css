@@ -1,0 +1,141 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 100vh;
+  background-repeat: no-repeat;
+ background-image: url(./components/Star-Wars-Episódio-8.jpg);
+ background-size: cover;
+
+}
+
+
+input{
+  background-color: white;
+  border: none;
+  height: 30%;
+  font-size: 1.25rem;
+  width: 80%;
+  margin-left: 1px;
+  
+} 
+
+input:focus{
+  outline: none;
+
+}
+
+.search{
+  width: 30%;
+position: relative;
+}
+
+.search input{
+  width: 100%;
+  padding: 15px 25px;
+  font-size: 18px;
+}
+#search-icon{
+  color: royalblue;
+  position: absolute;
+  top: 20px;
+  margin-left: 5px;
+}
+
+.results-list{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  /*border-radius: 10px;*/
+  margin: 0rem;
+  max-height: 300px;
+  overflow: hidden;
+
+}
+.results-list li{
+  list-style-type: none;
+}
+
+/*App {
+  background-color: purple;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+
+}
+
+.input-wrapper{
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+  
+
+.search{
+  display: flex;
+  height: 100vh;
+  width: 106vw;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+h1{
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+.search-box{
+  width: 40%;
+}
+
+.search-bar-container{
+  padding-top: 30vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  
+  background-repeat: no-repeat;
+ background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/ce/Star_wars2.svg);
+}
+
+
+
+
+  /*.s
+  input{
+      background-color: transparent;
+      border: none;
+      height: 30%;
+      font-size: 1.25rem;
+      width: 80%;
+      margin-left: 1px;
+      
+  } 
+  
+  input:focus{
+      outline: none;
+      height: 20%;
+
+      background-color: purple;
+  }
+  
+    
+}
+
+*/
